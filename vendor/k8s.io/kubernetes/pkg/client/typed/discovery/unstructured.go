@@ -23,7 +23,7 @@ import (
 	"k8s.io/kubernetes/pkg/runtime"
 )
 
-// UnstructuredObjectTyper provides a runtime.ObjectTyper implmentation for
+// UnstructuredObjectTyper provides a runtime.ObjectTyper implementation for
 // runtime.Unstructured object based on discovery information.
 type UnstructuredObjectTyper struct {
 	registered map[unversioned.GroupVersionKind]bool
